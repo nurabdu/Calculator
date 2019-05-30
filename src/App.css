@@ -1,0 +1,60 @@
+* {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto; 
+  font-size: 25px;
+}
+div {
+  text-align: right;
+}
+.app-body {
+  width: 360px;
+  height: 273px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.firststr {
+  width: 360px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid yellow;
+  margin: 4px;
+  width: 60px;
+  height: 60px;
+  color: black;
+  background-color: white;
+}
+button:hover {
+  opacity: .5;
+}
+button.signs {
+  background-color: orange;
+}
+button.res {
+  background-color: gray;
+}
+#first {
+  display: inline-block;
+  background-color: #b9b6b6;
+  color: black;
+}
+#second {
+  display: inline-block;
+  background-color: #b9b6b6;
+  color: black;
+}
+#result {
+  border: 2px solid yellow;
+  display: block;
+  background-color: white;
+  width: 360px;
+  color: black;
+  font-size: 40px;
+}
+#mathOpSign {
+  display: inline-block;
+  background-color: #b9b6b6;
+  color: black;
+}
